@@ -140,7 +140,7 @@ const HomePage = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8 }}
             >
-              <p className="text-sm font-medium text-primary mb-6 tracking-widest uppercase">
+              <p className="text-2xl sm:text-3xl font-semibold text-primary mb-10 tracking-widest uppercase">
                 Our Belief
               </p>
 
@@ -176,7 +176,7 @@ const HomePage = () => {
               transition={{ duration: 0.6 }}
               className="text-center mb-20"
             >
-              <p className="text-sm font-medium text-primary mb-4 tracking-widest uppercase">
+              <p className="text-2xl sm:text-3xl font-semibold text-primary mb-10 tracking-widest uppercase">
                 How We Help
               </p>
               <h2
@@ -227,7 +227,7 @@ const HomePage = () => {
               transition={{ duration: 0.6 }}
               className="text-center mb-20"
             >
-              <p className="text-sm font-medium text-primary mb-4 tracking-widest uppercase">
+              <p className="text-2xl sm:text-3xl font-semibold text-primary mb-10 tracking-widest uppercase">
                 What We Build
               </p>
               <h2
@@ -289,7 +289,7 @@ const HomePage = () => {
               transition={{ duration: 0.6 }}
               className="text-center mb-20"
             >
-              <p className="text-sm font-medium text-primary mb-4 tracking-widest uppercase">
+              <p className="text-2xl sm:text-3xl font-semibold text-primary mb-10 tracking-widest uppercase">
                 Solutions In Depth
               </p>
               <h2
@@ -357,7 +357,7 @@ const HomePage = () => {
               transition={{ duration: 0.6 }}
               className="text-center mb-20"
             >
-              <p className="text-sm font-medium text-primary mb-4 tracking-widest uppercase">
+              <p className="text-2xl sm:text-3xl font-semibold text-primary mb-10 tracking-widest uppercase">
                 Impact
               </p>
               <h2

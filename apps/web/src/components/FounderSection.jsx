@@ -18,7 +18,7 @@ const FounderSection = () => {
         viewport={{ once: true }}
         transition={{ duration: 0.7 }}
       >
-        <p className="text-sm font-medium text-primary mb-6 tracking-widest uppercase">
+        <p className="text-2xl sm:text-3xl font-semibold text-primary mb-10 tracking-widest uppercase">
           The Journey
         </p>
         <h2
