@@ -95,7 +95,7 @@ const ContactForm = () => {
             required
             value={formData.name}
             onChange={handleChange}
-            placeholder="John Doe"
+            placeholder="Enter your name"
             className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition duration-200 text-sm"
           />
         </div>
@@ -112,7 +112,7 @@ const ContactForm = () => {
               required
               value={formData.email}
               onChange={handleChange}
-              placeholder="john@company.com"
+              placeholder="Enter your email address"
               className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition duration-200 text-sm"
             />
           </div>
@@ -127,7 +127,7 @@ const ContactForm = () => {
               required
               value={formData.company}
               onChange={handleChange}
-              placeholder="Acme Corp"
+              placeholder="Enter your company name"
               className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent transition duration-200 text-sm"
             />
           </div>

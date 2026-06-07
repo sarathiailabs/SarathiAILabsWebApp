@@ -438,7 +438,7 @@ const HomePage = () => {
                 </h2>
 
                 <p className="text-lg text-white/80 mb-10 max-w-lg font-light leading-relaxed">
-                  Have a project in mind, need testing automation scaled, or looking to deploy AI agents? Start a conversation with us or book a calendar session directly.
+                  Have an idea to build, a process to automate, or a team to empower? Let’s explore how AI, automation, and engineering excellence can help you move faster and achieve better outcomes. Start a conversation or book a consultation today.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 items-start">
