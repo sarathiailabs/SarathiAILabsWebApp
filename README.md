@@ -84,6 +84,34 @@ npm run lint
 
 ---
 
+## ☁️ Hostinger Node.js Deployment
+
+This application is configured for deployment using Hostinger's **"Deploy Your Node.js Web App"** panel connected via GitHub.
+
+### Setup Settings
+
+When configuring your deployment settings in the Hostinger panel, use the following values:
+
+| Setting Field | Configuration Value | Description |
+|---|---|---|
+| **Framework preset** | `Other` | Keeps standard NPM build and start routines |
+| **Branch** | `main` | Production branch to pull from |
+| **Node version** | `22.x` | Matches target Node version |
+| **Root directory** | `./` | Root directory containing main package.json |
+| **Build command** | `npm run build` | Builds workspaces to production bundle |
+| **Package manager** | `npm` | Core package manager |
+| **Output directory** | `dist/apps/web` | Location of output build assets served by Node |
+| **Entry file** | `server.js` | Starts the zero-dependency production static server |
+
+### Standalone server.js
+
+For optimized production hosting and SEO compatibility, the root [server.js](file:///Users/vaibhavarde/Desktop/TestAutomation/horizons-export/server.js) script:
+* Binds to Hostinger's dynamic port via `process.env.PORT`.
+* Serves Vite static files with correct MIME types and aggressive browser cache headers.
+* Implements full **SPA routing fallback** (redirects virtual routes to `index.html`), preventing direct link 404s.
+
+---
+
 ## ✉️ Form Activation
 
 Because the contact form runs via the FormSubmit service, the first time you deploy or submit the contact form to a new target email:
