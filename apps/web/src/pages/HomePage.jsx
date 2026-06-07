@@ -251,7 +251,7 @@ const HomePage = () => {
               />
               <ProductCard
                 icon={AppWindow}
-                title="AI-Powered Applications"
+                title="AI-Powered Web Applications"
                 outcome="Intelligent products built for the modern enterprise"
                 index={1}
               />
@@ -263,7 +263,7 @@ const HomePage = () => {
               />
               <ProductCard
                 icon={Lightbulb}
-                title="AI Consulting"
+                title="AI & Technology Consulting"
                 outcome="Strategic guidance for confident AI adoption"
                 index={3}
               />
@@ -312,8 +312,8 @@ const HomePage = () => {
                 index={0}
               />
               <SolutionShowcase
-                title="AI Applications"
-                description="Custom AI-powered products and tools built to solve real problems for your organization."
+                title="AI Powered Web Applications"
+                description="Intelligent web applications built to transform ideas into scalable digital products, automate workflows, and drive business growth."
                 features={[
                   'AI-first product development',
                   'Enterprise-grade solutions',
