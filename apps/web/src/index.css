@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 225 15% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 225 15% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 225 15% 12%;
+
+    --primary: 189 94% 43%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 225 14% 96%;
+    --secondary-foreground: 225 15% 12%;
+
+    --muted: 225 14% 96%;
+    --muted-foreground: 225 9% 46%;
+
+    --accent: 189 94% 43%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 225 13% 91%;
+    --input: 225 13% 91%;
+    --ring: 189 94% 43%;
+
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 228 15% 7%;
+    --foreground: 210 40% 98%;
+
+    --card: 228 15% 10%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 228 15% 10%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 189 94% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 228 15% 14%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 228 15% 14%;
+    --muted-foreground: 220 10% 55%;
+
+    --accent: 189 94% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 228 15% 18%;
+    --input: 228 15% 18%;
+    --ring: 189 94% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Inter", sans-serif;
+    overflow-x: clip;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Space Grotesk", sans-serif;
+    text-wrap: balance;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(189, 94%, 43%), hsl(175, 80%, 40%), hsl(200, 85%, 50%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .hero-glow {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(120px);
+    pointer-events: none;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
