@@ -52,7 +52,7 @@ const HomePage = () => {
         ───────────────────────────────────────────────────────────── */}
         <section
           id="home"
-          className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden"
+          className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden pt-24 pb-12 md:pt-32 md:pb-20"
         >
           {/* Abstract background glows */}
           <div
