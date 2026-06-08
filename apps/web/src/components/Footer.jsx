@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-12">
           <div>
             <div className="flex items-center gap-3">
-              <img src="/logo.jpg" alt="Sarathi AI Labs Logo" className="h-8 w-8 object-contain rounded" />
+              <img src="/logo.jpg" alt="Sarathi AI Labs Logo" className="h-16 w-16 object-contain rounded" />
               <span className="font-semibold text-lg tracking-tight text-foreground">
                 Sarathi AI Labs
               </span>

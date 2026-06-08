@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowUpRight } from 'lucide-react';
 
 const ProductCard = ({ icon: Icon, title, outcome, index = 0 }) => {
   return (
@@ -20,7 +19,6 @@ const ProductCard = ({ icon: Icon, title, outcome, index = 0 }) => {
           <p className="text-muted-foreground text-sm">{outcome}</p>
         </div>
       </div>
-      <ArrowUpRight className="w-5 h-5 text-muted-foreground/40 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-500 shrink-0 ml-4" />
     </motion.div>
   );
 };

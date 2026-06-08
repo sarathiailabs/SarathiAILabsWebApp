@@ -32,7 +32,7 @@ const Header = () => {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-20 md:h-24">
           <Link
             to="/"
             onClick={(e) => {
@@ -41,7 +41,7 @@ const Header = () => {
             }}
             className="flex items-center gap-3"
           >
-            <img src="/logo.jpg" alt="Sarathi AI Labs Logo" className="h-8 w-8 object-contain rounded" />
+            <img src="/logo.jpg" alt="Sarathi AI Labs Logo" className="h-16 w-16 object-contain rounded" />
             <span className="font-semibold text-lg tracking-tight text-foreground">
               Sarathi AI Labs
             </span>
